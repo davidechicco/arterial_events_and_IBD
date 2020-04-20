@@ -5,26 +5,9 @@ set.seed(11)
 
 EXP_ARG_NUM <- 2
 
-# fileName <-  "/home/davide/projects/heart-failure-gene-expression-analysis/temp/patients_data_dataset_dim_red_svd5_file_1052379918.csv" 
-# targetName <- "diagnosis"
-
-# fileName <- "/home/davide/projects/heart-failure-gene-expression-analysis/data_preprocessed/STEMI_patients_data_heart_failure_1052379918_dimRed_47621531.csv"
-# targetName <- "added_diagnosis"
 
 TRAIN_SET_OVERSAMPLING_SYNTHETIC <- TRUE
 
-# args = commandArgs(trailingOnly=TRUE)
-# if (length(args)<EXP_ARG_NUM) {
-#   stop("At least two argument must be supplied (input files)", call.=FALSE)
-# } else {
-#   # default output file
-#   fileName <- args[1]
-#   targetName <- args[2]
-# }
-
-
-# fileName <- "/home/davide/projects/arterial_events_and_IBD/data/journal.pone.0201991.s001_EDITED_binary_event.csv"
-# targetName <- "TARGET_arterial_event"
 
 fileName <- "/home/davide/projects/arterial_events_and_IBD/data/journal.pone.0201991.s001_EDITED_event_type_binary.csv"
 targetName <- "TARGET_type_0ACS_1stroke"
